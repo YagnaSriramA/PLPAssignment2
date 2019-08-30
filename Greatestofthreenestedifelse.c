@@ -1,29 +1,29 @@
 #include <stdio.h>
 main()
 {
-	int a,b,c;
+	int firstvalue, secondvalue, thirdvalue;
 	printf("Enter the three values\n");
-	scanf("%d%d%d",&a,&b,&c);
-	if(a>b)
+	scanf("%d%d%d",&firstvalue,&secondvalue,&thirdvalue);
+	if(firstvalue>secondvalue)
 	{
-		if(a>c)
+		if(firstvalue>thirdvalue)
 		{
-			printf("%d is the greatest number",a);
+			printf("%d is the greatest number",firstvalue);
 		}
 		else
 		{
-			printf("%d is the greatest number",c);
+			printf("%d is the greatest number",thirdvalue);
 		}
 	}
 	else
 	{
-			if(b>c)
+			if(secondvalue>thirdvalue)
 		{
-			printf("%d is the greatest number",a);
+			printf("%d is the greatest number",firstvalue);
 		}
 		else
 		{
-			printf("%d is the greatest number",c);
+			printf("%d is the greatest number",thirdvalue);
 		}
 	}
 	
